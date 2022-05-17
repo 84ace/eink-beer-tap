@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/acea/projects/hardware/project_nrf_pill_lid/pcb/nrf_pill_lid.sch</source>
+    <date>Saturday, 07 August 2021 at 08:26:00 pm</date>
+    <tool>Eeschema (5.1.10-1-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>NRF Pill Lid</title>
+        <company>Ace's Electronics</company>
+        <rev>0</rev>
+        <date>2021-07-22</date>
+        <source>nrf_pill_lid.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>JTAG_SWD_6</value>
+      <footprint>Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical</footprint>
+      <datasheet>http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf</datasheet>
+      <libsource lib="Connector" part="Conn_ARM_JTAG_SWD_6" description="Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFAA25</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc_part_number">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFEAA4</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc_part_number">C19702</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFF143</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LIS2DE12</value>
+      <footprint>Package_LGA:LGA-12_2x2mm_P0.5mm</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/lis2DE12.pdf</datasheet>
+      <fields>
+        <field name="lcsc_part_number">C110926</field>
+      </fields>
+      <libsource lib="Sensor_Motion" part="LIS2DE12" description="3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F15303</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc_part_number">C25803</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F29B64</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc_part_number">C25803</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F2A683</tstamp>
+    </comp>
+    <comp ref="MD1">
+      <value>MDBT42V-512KV2</value>
+      <footprint>Acea:Raytac-MDBT42V-512KV2-0-0-MFG</footprint>
+      <datasheet>https://www.raytac.com/download/index.php?index_id=28</datasheet>
+      <libsource lib="MDBT42V" part="MDBT42V-512KV2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FA7511</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc_part_number">C19702</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FD2B7C</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>MS614SE</value>
+      <footprint>Battery:BatteryHolder_Keystone_3000_1x12mm</footprint>
+      <datasheet>https://au.mouser.com/datasheet/2/215/3000TR-742873.pdf</datasheet>
+      <libsource lib="MAX17260" part="BATTERY" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FF0364</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61056E4C</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>Crystal_Small</value>
+      <footprint>Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc_part_number">C390740</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_Small" description="Two pin crystal, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61063451</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>12pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc_part_number">C107034</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610794EE</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>12pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc_part_number">C107034</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610798EC</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61125C5E</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>3k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc_part_number">C4211</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F2257F</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>3k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc_part_number">C4211</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F2231C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_ARM_JTAG_SWD_6">
+      <description>Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface</description>
+      <docs>http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf</docs>
+      <footprints>
+        <fp>PinHeader?2x03?P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_ARM_JTAG_SWD_6</field>
+        <field name="Footprint">Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VTref" type="power_in"/>
+        <pin num="2" name="SWDIO/TMS" type="BiDi"/>
+        <pin num="3" name="~RESET~" type="openCol"/>
+        <pin num="4" name="SWDCLK/TCK" type="output"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="SWO/TDO" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_Small">
+      <description>Two pin crystal, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAX17260" part="BATTERY">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">BATTERY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MDBT42V" part="MDBT42V-512KV2">
+      <fields>
+        <field name="Reference">MD</field>
+        <field name="Value">MDBT42V-512KV2</field>
+        <field name="Footprint">Raytac-MDBT42V-512KV2-0-0-*</field>
+        <field name="Datasheet">https://www.raytac.com/download/index.php?index_id=28</field>
+        <field name="ambient temperature range high">+85°C</field>
+        <field name="ambient temperature range low">-40°C</field>
+        <field name="automotive">No</field>
+        <field name="category">UNK</field>
+        <field name="device class L1">Integrated Circuits (ICs)</field>
+        <field name="device class L2">RF Semiconductors and Devices</field>
+        <field name="device class L3">Transceivers</field>
+        <field name="height">1.75mm</field>
+        <field name="interface">I2C,SPI,UART,I2S,Other</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">a718936ca4573832</field>
+        <field name="manufacturer">Raytac</field>
+        <field name="max frequency">2500MHz</field>
+        <field name="max supply voltage">3.6V</field>
+        <field name="min supply voltage">1.7V</field>
+        <field name="number of GPIO">20</field>
+        <field name="package">SMT_MODULE_6MM4_8MM4</field>
+        <field name="receiving current">12.9mA</field>
+        <field name="rohs">Yes</field>
+        <field name="sensitivity">-89dBm</field>
+        <field name="temperature range high">+85°C</field>
+        <field name="temperature range low">-40°C</field>
+        <field name="transmitting current">16.6mA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="SWDCLK" type="input"/>
+        <pin num="3" name="P0.21/RESET" type="BiDi"/>
+        <pin num="4" name="SWDIO" type="BiDi"/>
+        <pin num="5" name="P0.20" type="BiDi"/>
+        <pin num="6" name="P0.16" type="BiDi"/>
+        <pin num="7" name="P0.15" type="BiDi"/>
+        <pin num="8" name="P0.14" type="BiDi"/>
+        <pin num="9" name="P0.12" type="BiDi"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="P0.09" type="BiDi"/>
+        <pin num="12" name="P0.08" type="BiDi"/>
+        <pin num="13" name="P0.10" type="BiDi"/>
+        <pin num="14" name="P0.06" type="BiDi"/>
+        <pin num="15" name="P0.01/XL2" type="BiDi"/>
+        <pin num="16" name="P0.00/XL1" type="BiDi"/>
+        <pin num="17" name="P0.04" type="BiDi"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="P0.30" type="BiDi"/>
+        <pin num="20" name="VDD" type="power_in"/>
+        <pin num="21" name="DEC4" type="power_in"/>
+        <pin num="22" name="DCC" type="power_in"/>
+        <pin num="23" name="P0.29" type="BiDi"/>
+        <pin num="24" name="P0.28" type="BiDi"/>
+        <pin num="25" name="P0.25" type="BiDi"/>
+        <pin num="26" name="P0.02" type="BiDi"/>
+        <pin num="27" name="P0.03" type="BiDi"/>
+        <pin num="28" name="P0.11" type="BiDi"/>
+        <pin num="29" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Motion" part="LIS2HH12">
+      <aliases>
+        <alias>LIS2DE12</alias>
+      </aliases>
+      <description>3-Axis Accelerometer, 2/4/8g range, I2C/SPI interface</description>
+      <docs>www.st.com/resource/en/datasheet/lis2hh12.pdf</docs>
+      <footprints>
+        <fp>LGA*2x2mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LIS2HH12</field>
+        <field name="Footprint">Package_LGA:LGA-12_2x2mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL/SPC" type="input"/>
+        <pin num="2" name="~CS" type="input"/>
+        <pin num="3" name="SA0/SDO" type="BiDi"/>
+        <pin num="4" name="SDA/SDI" type="BiDi"/>
+        <pin num="5" name="RES" type="passive"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="Vdd" type="power_in"/>
+        <pin num="10" name="Vdd_IO" type="power_in"/>
+        <pin num="11" name="INT2" type="output"/>
+        <pin num="12" name="INT1" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Library/Application Support/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="MAX17260">
+      <uri>/Users/acea/projects/hardware/hardware_kicad_parts/libraries/MAX17260.lib</uri>
+    </library>
+    <library logical="MDBT42V">
+      <uri>/Users/acea/projects/hardware/hardware_kicad_parts/libraries/MDBT42V.lib</uri>
+    </library>
+    <library logical="Sensor_Motion">
+      <uri>/Library/Application Support/kicad/library/Sensor_Motion.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="U1" pin="5"/>
+      <node ref="J1" pin="5"/>
+      <node ref="MD1" pin="1"/>
+      <node ref="MD1" pin="10"/>
+      <node ref="MD1" pin="18"/>
+      <node ref="MD1" pin="29"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="4" name="~Reset">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="5" name="SWCLK">
+      <node ref="J1" pin="4"/>
+      <node ref="MD1" pin="2"/>
+    </net>
+    <net code="6" name="SWDIO">
+      <node ref="J1" pin="2"/>
+      <node ref="MD1" pin="4"/>
+    </net>
+    <net code="7" name="SCL">
+      <node ref="U1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="MD1" pin="17"/>
+    </net>
+    <net code="8" name="SDA">
+      <node ref="U1" pin="4"/>
+      <node ref="R1" pin="2"/>
+      <node ref="MD1" pin="27"/>
+    </net>
+    <net code="9" name="3V3">
+      <node ref="MD1" pin="20"/>
+      <node ref="MD1" pin="26"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="10"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="9"/>
+      <node ref="R3" pin="1"/>
+      <node ref="BT1" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="10" name="INT2">
+      <node ref="R4" pin="2"/>
+      <node ref="MD1" pin="12"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="11" name="INT1">
+      <node ref="MD1" pin="14"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="12" name="Net-(MD1-Pad22)">
+      <node ref="MD1" pin="22"/>
+    </net>
+    <net code="13" name="Net-(MD1-Pad21)">
+      <node ref="MD1" pin="21"/>
+    </net>
+    <net code="14" name="Net-(MD1-Pad11)">
+      <node ref="MD1" pin="11"/>
+    </net>
+    <net code="15" name="Net-(MD1-Pad13)">
+      <node ref="MD1" pin="13"/>
+    </net>
+    <net code="16" name="Net-(MD1-Pad28)">
+      <node ref="MD1" pin="28"/>
+    </net>
+    <net code="17" name="Net-(MD1-Pad9)">
+      <node ref="MD1" pin="9"/>
+    </net>
+    <net code="18" name="Net-(MD1-Pad8)">
+      <node ref="MD1" pin="8"/>
+    </net>
+    <net code="19" name="Net-(MD1-Pad7)">
+      <node ref="MD1" pin="7"/>
+    </net>
+    <net code="20" name="Net-(MD1-Pad6)">
+      <node ref="MD1" pin="6"/>
+    </net>
+    <net code="21" name="Net-(MD1-Pad5)">
+      <node ref="MD1" pin="5"/>
+    </net>
+    <net code="22" name="Net-(MD1-Pad25)">
+      <node ref="MD1" pin="25"/>
+    </net>
+    <net code="23" name="Net-(MD1-Pad24)">
+      <node ref="MD1" pin="24"/>
+    </net>
+    <net code="24" name="Net-(MD1-Pad23)">
+      <node ref="MD1" pin="23"/>
+    </net>
+    <net code="25" name="Net-(MD1-Pad19)">
+      <node ref="MD1" pin="19"/>
+    </net>
+    <net code="26" name="Net-(MD1-Pad3)">
+      <node ref="TP1" pin="1"/>
+      <node ref="MD1" pin="3"/>
+    </net>
+    <net code="27" name="Net-(C1-Pad1)">
+      <node ref="Y1" pin="1"/>
+      <node ref="MD1" pin="16"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="28" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="MD1" pin="15"/>
+      <node ref="Y1" pin="2"/>
+    </net>
+  </nets>
+</export>
